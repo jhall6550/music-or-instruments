@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#fff8e1"/>
+  <g transform="translate(20,20)">
+    <rect x="120" y="40" width="12" height="100" rx="6" fill="#fbc02d"/>
+    <ellipse cx="130" cy="150" rx="18" ry="10" fill="#f57f17"/>
+    <path d="M140 60 C170 85, 200 75, 230 50" stroke="#6d4c41" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <text x="10" y="180" font-size="16" fill="#333">Jazz saxophone (placeholder)</text>
+  </g>
+</svg>
