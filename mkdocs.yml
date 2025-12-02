@@ -1,0 +1,37 @@
+site_name: Music Explorations
+site_description: "An informational site about music — genres, instruments, artists and more."
+site_url: "https://jhall6550.github.io/music-or-instruments"
+repo_name: "jhall6550/music-or-instruments"
+repo_url: "https://github.com/jhall6550/music-or-instruments"
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: deep-orange
+  logo: assets/images/logo.png
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+nav:
+  - Home: index.md
+  - Genres:
+      - Rock: genres/rock.md
+      - Jazz: genres/jazz.md
+  - Instruments: instruments.md
+  - Visualizer: visualizer.md
+  - Gallery: gallery.md
+  - About: about.md
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/p5.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/addons/p5.sound.min.js
+  - assets/js/visualizer.js
+extra:
+  social:
+    - type: github
+      link: https://github.com/jhall6550
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - smarty
