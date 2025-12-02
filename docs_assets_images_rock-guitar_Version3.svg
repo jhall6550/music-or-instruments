@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f5f5f5"/>
+  <g transform="translate(30,20)">
+    <ellipse cx="120" cy="80" rx="65" ry="40" fill="#ff7043" stroke="#bf360c" stroke-width="3"/>
+    <rect x="160" y="70" width="140" height="18" rx="6" fill="#6d4c41"/>
+    <rect x="280" y="60" width="8" height="36" fill="#3e2723"/>
+    <circle cx="100" cy="80" r="6" fill="#3e2723"/>
+    <text x="10" y="160" font-size="16" fill="#333">Rock guitar (placeholder)</text>
+  </g>
+</svg>
